@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_base"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_preferences_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LIST_YOUR_TUL_ADD_PREFERENCES"
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_preferences_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/ll_available_for"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/white_ripple"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<customviews.RegularTextView-->
+            <!--android:id="@+id/tv_preferences_available_for_hint"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="BOOKING AVAILABILITY"-->
+            <!--android:textColor="@color/hint_color_dark" />-->
+
+            <!--<customviews.SemiboldTextView-->
+            <!--android:id="@+id/tv_preferences_available_for"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableRight="@mipmap/ic_arrow_more"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="@string/both"-->
+            <!--android:textColor="@color/black_color"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<View-->
+            <!--android:id="@+id/view1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/light_grey" />-->
+
+            <LinearLayout
+                android:id="@+id/ll_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_ripple"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_preferences_start_time_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/check_in"
+                    android:textColor="@color/hint_color_dark" />
+
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_preferences_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@mipmap/ic_arrow_more"
+                    android:gravity="center_vertical"
+                    android:hint="--:--"
+                    android:textColor="@color/black_color"
+                    android:textColorHint="@color/black_color"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_ripple"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_preferences_end_time_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/check_out"
+                    android:textColor="@color/hint_color_dark" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_preferences_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@mipmap/ic_arrow_more"
+                    android:gravity="center_vertical"
+                    android:hint="--:--"
+                    android:textColor="@color/black_color"
+                    android:textColorHint="@color/black_color"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_hrs_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_ripple"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_hrs_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/available_from"
+                    android:textColor="@color/hint_color_dark" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_hrs_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@mipmap/ic_arrow_more"
+                    android:gravity="center_vertical"
+                    android:hint="--:--"
+                    android:textColor="@color/black_color"
+                    android:textColorHint="@color/black_color"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_hrs_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_ripple"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_hrs_end_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/end_time_for_hours"
+                    android:textColor="@color/hint_color_dark" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_hrs_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@mipmap/ic_arrow_more"
+                    android:gravity="center_vertical"
+                    android:hint="--:--"
+                    android:textColor="@color/black_color"
+                    android:textColorHint="@color/black_color"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_end"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_available"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_preferences_available_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/available_on"
+                    android:textColor="@color/hint_color_dark" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_preferences_available"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:drawableRight="@mipmap/ic_arrow_more"
+                    android:gravity="center_vertical"
+                    android:text="@string/only_weekends"
+                    android:textColor="@color/black_color"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_buttons_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/white_color"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/bt_save"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_default"
+                android:text="@string/save_amp_next"
+                android:textColor="@color/white_color"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_discard"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/white_ripple"
+                android:text="@string/discard"
+                android:textColor="@color/hint_color_dark"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

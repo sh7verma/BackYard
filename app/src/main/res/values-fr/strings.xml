@@ -1,0 +1,785 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+    <string name="app_name">BACK YARD</string>
+    <string name="login">Login</string>
+    <string name="app_id">832601126864557</string>
+    <string name="google_maps_key">AIzaSyBq9-M35AEnxI4lMyfMOZVhwe2gm11n9Ao</string>
+
+    //codes
+    <string name="cannot_connect_server">Connexion au serveur impossible.</string>
+    <string name="error">Quelque chose ne va pas!</string>
+    <string name="internet">Connexion internet indisponible!</string>
+    <string name="success">200</string>
+    <string name="invalid_access_token">420</string>
+    <string name="treminate_account">405</string>
+
+    <string name="enter_email">Veuillez saisir Email</string>
+    <string name="enter_valid_email">Veuillez saisir un Email valide</string>
+    <string name="enter_password">Veuillez saisir Mot de passe</string>
+    <string name="error_password">Le mot de passe doit contenir au moins 8 caractères</string>
+    <string name="cancel_message">En annulant, votre note globale sera réduite, ce qui affectera vos réservations futures. Voulez-vous continuer?</string>
+    <string name="start_sharing_your_tuls">Start Sharing Your BACK YARD</string>
+    <string name="log_in">SE CONNECTER</string>
+    <string name="sign_up">S\'INSCRIRE</string>
+    <string name="login_with_facebook">SE CONNECTER AVEC FACEBOOK</string>
+    <string name="email">Email</string>
+    <string name="passowrd">Mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="password">Mot de passe</string>
+    <string name="error_code">Veuillez saisir l'indicatif de pays.</string>
+    <string name="by_signing_up_i_agree_to_the_terms_amp_conditions"><![CDATA[En m'inscrivant, j'accepte les Termes et Conditions d'utilisation.]]></string>
+    <string name="reset_password_hint">Veuillez entrer votre adresse email enregistré afin de recevoir le lien de réinitialisation. Vous allez pouvoir définir un nouveau mot de passe à partir de là. </string>
+    <string name="reset">RÉINITIALISER </string>
+    <string name="full_name">Nom Prénom</string>
+    <string name="enter_phone_no">Saisir Numéro de Téléphone</string>
+    <string name="error_name">Please enter valid name with minimum 2 characters.</string>
+    <string name="error_first_name">Veuillez saisir un prénom valide avec minimum 2 caractères.</string>
+    <string name="error_last_name">Veuillez saisir un nom valide avec minimum 2 caractères.</string>
+    <string name="error_pic">Veuillez ajouter une photo de profil.</string>
+    <string name="enter_phone">Veuillez saisir Numéro de téléphone</string>
+    <string name="enter_valid_number">Veuillez saisir un Numéro de téléphone valide</string>
+    <string name="verfication_hint_msg">Veuillez entrer le code de vérification que nous avons envoyé à</string>
+    <string name="call">APPELER</string>
+    <string name="done">FAIT</string>
+    <string name="select_category">SÉLECTIONNER LA CATÉGORIE</string>
+    <string name="lender_side">CÔTÉ HÔTE</string>
+    <string name="user_side">CÔTÉ UTILISATEUR</string>
+    <string name="edit_profile">MODIFIER LE PROFIL</string>
+    <string name="security_charges">CAUTION DE GARANTIE (REMBOURSABLE)</string>
+    <string name="convenience_fee">FRAIS SUPPLÉMENTAIRE</string>
+    <string name="error_country_code">Veuillez choisir l\'Indicatif de Pays</string>
+    <string name="error_currency">Veuillez choisir la devise</string>
+    <string name="error_account">Veuillez saisir le Numéro De Compte.</string>
+    <string name="error_sort_code">Veuillez saisir l/\'IBAN</string>
+    <string name="error_city">Veuillez saisir la Ville</string>
+    <string name="error_state">Veuillez saisir l\'État</string>
+    <string name="error_postal_code">Veuillez saisir le Code Postal</string>
+    <string name="error_dob">Veuillez indiquer votre date de naissance</string>
+    <string name="error_document">Veuillez ajouter un document de vérification</string>
+    <string name="share_content">Jetez un coup d\'oeil à l\'App BACK YARD pour votre smartphone, cette application évite les pertes de temps. Téléchargez la dès aujourd\'hui à partir de yourbackyardapp.com</string>
+
+    <string name="lorem_ipsum_dolor">Lorem Ipsum Dolor</string>
+    <string name="lorem_ipsum_desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="looking_for_a_tul">À LA RECHERCHE DE </string>
+    <string name="become_a_host">Devenir Hôte</string>
+    <string name="verify">VÉRIFIER</string>
+    <string name="book_and_rent_places_for_events_in_a_matter_of_seconds_now">Book and rent places for events in a matter of seconds now.</string>
+    <string name="where_are_you">Where Are You?</string>
+    <string name="location_msg">Your location services need to be turned on in order for this to work.</string>
+    <string name="enter_rule">Saisir Règle</string>
+    <string name="cancel">ANNULER</string>
+    <string name="listed_tuls">Espaces Listés</string>
+    <string name="my_short_list">Mes Favoris</string>
+    <string name="add">AJOUTER</string>
+    <string name="add_additional_prices">Ajouter des frais additionnels</string>
+    <string name="edit_additional_prices">Edit Aditional Prices</string>
+    <string name="list_places">Lister Votre Espace</string>
+    <string name="title">TITRE</string>
+    <string name="category">Catégorie</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="error_start_time">Please enter Check In time</string>
+    <string name="error_end_time">Please enter Check Out time</string>
+    <string name="error_hrs_start_time">Please enter Start Time For Hours</string>
+    <string name="error_hrs_end_time">Please enter End Time For Hours</string>
+    <string name="no_of_tul_available">NO. OF TUL AVAILABLE</string>
+    <string name="price">PRIX</string>
+    <string name="additional_prices">Frais additionnels</string>
+    <string name="address">Adresse</string>
+    <string name="rules">RÈGLEMENT</string>
+    <string name="add_images_video">Ajouter Images/Vidéo</string>
+    <string name="no_location_found">Aucune position trouvée.</string>
+    <string name="searching">Searching...</string>
+    <string name="search">Recherche</string>
+    <string name="set_location_on_map">SET  LOCATION ON MAP</string>
+    <string name="fetching_current_location">Localisation de la position actuelle</string>
+    <string name="add_your_first_tul">Add Your First Place</string>
+    <string name="update">METTRE À JOUR</string>
+    <string name="delete_message">Êtes-vous sûr(e) de vouloir supprimer l'image ou la vidéo?</string>
+    <string name="confrim">Confirmer</string>
+    <string name="add_rules">AJOUTER UN RÈGLEMENT</string>
+    <string name="edit_rules">EDIT RULES</string>
+    <string name="reviews_and_ratings">AVIS &amp; NOTES</string>
+    <string name="cancellation_policies">POLITIQUE D\'ANNULATION</string>
+    <string name="prefrences">PRÉFÉRENCES</string>
+    <string name="linked_account">COMPTE LIÉ</string>
+    <string name="add_photo">Ajouter une image</string>
+    <string name="capture_video">Ajouter une vidéo</string>
+    <string name="error_image_count">Vous ne pouvez pas télécharger plus de 6 Images</string>
+    <string name="error_video_count">Vous ne pouvez pas télécharger plus de 1 Vidéo.</string>
+    <string name="weekdays">Jours ouvrés</string>
+    <string name="only_weekends">Week-end seulement</string>
+    <string name="both">Les deux</string>
+    <string name="pause_message">La pause de réservation désactivera les réservations futures par les utilisateurs. Êtes-vous sûr de vouloir interrompre ?</string>
+    <string name="resume_message">La reprise de réservation activera les réservations futures par les utilisateurs. Êtes-vous sûr de vouloir reprendre?</string>
+
+    <string name="last_name_profile">NOM</string>
+    <string name="error_image_video_count">Vous ne pouvez pas télécharger plus de 7 Images/Vidéos.</string>
+    <string name="save_amp_next"><![CDATA[ENREGISTRER & SUIVANT]]></string>
+    <string name="discard_message">Are you sure you want to discard? Your Preferences data,discount days and discount percentage will be reset.</string>
+    <string name="discard_days_message">Êtes-vous sûr(e) de vouloir abandonner?</string>
+
+    <string name="discard_discount">Vous avez changé l\'heure de début. Les informations sur la remise ont été donc réinitialisées.</string>
+    <string name="error_title">Veuiller saisir un titre</string>
+    <string name="error_category">Veuillez sélectionner une catégorie</string>
+    <string name="error_descrption">Veuillez saisir une description</string>
+    <string name="error_no_tuls">Veuillez indiquer le nombre d'équipement</string>
+    <string name="error_no_valid">Veuillez saisir une quantité valide</string>
+    <string name="error_price">Please enter a valid price</string>
+    <string name="error_valid_price">Please enter  a valid price</string>
+    <string name="error_max_price">Vous pouvez régler les charges jusqu'à 999 maximum</string>
+    <string name="error_addtional_prices">Veuillez définir les frais additionnels</string>
+    <string name="error_max_fee">You can set extra fee upto 999 only</string>
+    <string name="extra_fee_error">Please add valid extra fee </string>
+    <string name="error_max_security_price">Vous pouvez régler dépôt de sécurité jusqu'à 900000 maximum</string>
+    <string name="error_address">Veuillez saisir une adresse</string>
+    <string name="error_rules">Veuillez saisir le règlement</string>
+    <string name="error_image_video">Veuillez ajouter au moins 1 vidéo ou image.</string>
+    <string name="security_fee_error">Please add security fee</string>
+    <string name="error_valid_fee">Please enter a valid fee</string>
+    <string name="transition">transition</string>
+    <string name="payment_exceed_code">423</string>
+
+    <string name="remove_account">Êtes-vous sûr(e) de vouloir supprimer ce compte?</string>
+    <string name="primary_account">Souhaitez-vous désigner comme compte principal?</string>
+    <string name="payment">PAIEMENTS</string>
+    <string name="saved_cards">CARTES ENREGISTRÉES</string>
+    <string name="accounts">COMPTES</string>
+    <string name="name_on_card">TITULAIRE DE LA CARTE</string>
+    <string name="card_no">NUMÉRO DE CARTE</string>
+    <string name="expiry_month">MOIS D'EXPIRATION</string>
+    <string name="expiry_year">ANNÉE D'EXPIRATION</string>
+    <string name="add_debit_credit_card">AJOUTER UNE CARTE DÉBIT/CRÉDIT</string>
+    <string name="error_card_no">Entrez le numéro de carte</string>
+    <string name="error_valid_card_no">Entrez un numéro de carte valide</string>
+    <string name="error_month">Entrez le mois d'expiration</string>
+    <string name="error_year">Entrez l'année d'expiration</string>
+    <string name="error_valid_account">Entrez un numéro de compte valide</string>
+
+    ///skip
+    <string name="contact">Contacter</string>
+
+    <string name="Login_First">Seuls les utilisateurs enregistrés peuvent continuer plus loin. Inscrivez-vous et explorez l\'application. Voulez-vous vous inscrire ?</string>
+
+    <string name="contact_admin_tul">Votre compte est suspendu par l\'Admin. Vous pouvez contacter l\'administrateur à <u>info@yourbackyardapp.com</u>.</string>
+    <string name="contact_admin_user">Votre compte est suspendu par l\'Admin. Vous pouvez contacter l\'administrateur à <u>info@yourbackyardapp.com</u>.</string>
+    <string name="verify_email_2">Votre identifiant email n\'est pas vérifié, veuillez vous assurer que vous utilisez un identifiant certifié. Seul un identifiant certifié recevra un justificatif de la transaction. Voulez-vous procéder sans vérification?</string>
+    <string name="verify_email">Votre email n\'est pas encore vérifié. Cliquez sur l\'option Renvoyer pour recevoir un email de confirmation.</string>
+    <string name="place_is_blocked">This PLACE is suspended by the admin.</string>
+    <string name="owner_is_blocked">Le propriétaire a été suspendu par l\'administrateur.</string>
+
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_tul_rules">TulRulesActivity</string>
+    <string name="overall_rating">Note globale</string>
+    <string name="AMENITIES">ADD AMENITIES</string>
+    <string name="amenities">ÉQUIPEMENTS</string>
+    <string name="discard">ABANDONNER</string>
+    <string name="dob">DOB</string>
+    <string name="postal_code">CODE POSTAL</string>
+    <string name="state">ÉTAT</string>
+    <string name="city">VILLE</string>
+    <string name="address_caps">ADRESSE</string>
+    <string name="first_name">Pr\'enom</string>
+    <string name="first_name_caps">PRÉNOM</string>
+    <string name="last_name">Nom</string>
+    <string name="last_name_caps">NOM</string>
+    <string name="sort_code">IBAN</string>
+    <string name="account_no">N° DE COMPTE</string>
+    <string name="currency">CURRENCY</string>
+    <string name="country_code">COUNTRY CODE</string>
+    <string name="account_details">details du compte</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="check_in">CHECK IN</string>
+    <string name="add_bank_detail">AJOUTER COORDONNÉES BANCAIRES</string>
+    <string name="add_id_verification_document">Ajouter un document de vérification d'identité</string>
+    <string name="error_Amenities">Enter Amenities</string>
+    <string name="just_click_on_add_button_for_new_rules">Il suffit de cliquer sur le bouton Ajouter pour nouvelles règles</string>
+    <string name="delete_tul">Êtes-vous sûr de vouloir supprimer cet espace?</string>
+    <string name="all_data_discard">En retournant en arrière, vos données vont être supprimées. Êtes-vous sûr(e) de vouloir abandonner?</string>
+    <string name="add_new_account">Ajouter Un Nouveau Compte</string>
+    <string name="lent_tuls">ESPACES RÉSERVÉS</string>
+    <string name="rented_tuls">Rented Places</string>
+    <string name="report_msg">Are you sure you want to report this Place?</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="re_enter_password">Retaper mot de passe</string>
+    <string name="password_mismatch">Vous devez saisir deux fois le même mot de passe afin de le confirmer.</string>
+
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">AJOUTER L'ÉVENEMENT AU CALENDRIER</string>
+    <string name="sun">DIM</string>
+    <string name="mon">LUN</string>
+    <string name="tue">MAR</string>
+    <string name="wed">MER</string>
+    <string name="thu">JEU</string>
+    <string name="fri">VEN</string>
+    <string name="sat">SAM</string>
+    <string name="last_date">30</string>
+    <string name="booked">Réservé</string>
+    <string name="pickup_delivery"><![CDATA[Pick-up et livraison]]></string>
+    <string name="returnn">Retourner</string>
+    <string name="all">Tout</string>
+    <string name="MESSAGES">MESSAGES</string>
+    <string name="NOTIFICATIONs">NOTIFICATIONS</string>
+    <string name="file_size_exceeds">Taille du fichier dépasse la limite de 100 Mo</string>
+    <string name="pause_error">306</string>
+    <string name="edit_error">302</string>
+    <string name="error_already_marked">300</string>
+    <string name="start_time_for_hours">L\'HEURE DE DÉBUT</string>
+    <string name="hourly">By Hours</string>
+    <string name="daily">By Days</string>
+    <string name="price_per_hour">PRICE PER HOUR</string>
+    <string name="price_per_day">PRICE PER DAY</string>
+    <string name="error_price_per_hour">Enter Price Per Hour</string>
+    <string name="error_price_per_day">Enter Price Per Day</string>
+    <string name="error_valid_day_price">Enter valid day price</string>
+    <string name="error_max_day_price">You can set Day Price upto 999 only</string>
+    <string name="error_valid_hourly_price">Enter Valid Hourly Price</string>
+    <string name="error_max_hourly_price">You can set Hourly Price upto 999 only</string>
+    <string name="error_discount_percentage">Enter discount percentage</string>
+    <string name="error_max_discount">You can set discount percentage upto 99 only</string>
+    <string name="error_no_bookings">Enter number of bookings</string>
+    <string name="error_extra_fees">Enter extra fees</string>
+    <string name="error_valid_security_fee">Enter valid security fee</string>
+    <string name="min_price">Price cannot be less than 0.0001</string>
+    <string name="price_and_offers">PRICE &amp; OFFERS</string>
+    <string name="Edit_basic_detail_of_your_tul">Modifier les informations de votre Espace</string>
+    <string name="add_basic_detail_of_your_tul">Modifier les informations de votre Espace</string>
+    <string name="LIST_YOUR_PLACE_ADD_AMENITIES">Set amenities of your space</string>
+    <string name="LIST_YOUR_TUL_ADD_PREFERENCES">Set Preferences like Start Time and Availability</string>
+    <string name="LIST_YOUR_PLACE_PRICE">Set price and discount details</string>
+    <string name="remove_card">Are you sure you want to remove this card?</string>
+    <string name="List_your_place">List your Place, become a lender, and start earning!</string>
+    <string name="end_time_for_hours">END TIME FOR HOURS</string>
+    <string name="share_your_spaces_by_day_or_by_hour">Share your spaces by day or by hour</string>
+    <string name="Admin_Percentage">Pourcentage de Transaction a été changé.</string>
+
+    <string name="Skip"><![CDATA[PASSER>>]]></string>
+    <string name="no_active_bookings_yet">Aucune Réservation Active</string>
+    <string name="enter_your_bank_details">Enter your bank details to receive your funds in future.</string>
+    <string name="your_earning">VOTRE REVENU</string>
+    <string name="security_deposit_refundable">CAUTION DE GARANTIE (REMBOURSABLE)</string>
+    <string name="extra_fee">FRAIS SUPPLÉMENTAIRE</string>
+    <string name="extra_fee_earning">REVENU DES FRAIS SUPPLÉMENTAIRES</string>
+    <string name="set_discount_offer">DÉFINIR L\'OFFRE DE REMISE</string>
+    <string name="no_of_days_for_discount">NOMBRE DE JOURS POUR LA REMISE</string>
+    <string name="no_of_hours_for_discount">NO. OF HOURS FOR DISCOUNT</string>
+    <string name="discount_per">DISCOUNT (%)</string>
+    <string name="no_amenities_for_this_category">No Amenities for this category.</string>
+    <string name="spanning_tool">Spanning tool</string>
+    <string name="rented">Loué</string>
+    <string name="total_earnings">Total des revenus</string>
+    <string name="about_this_back_yard">À propos de ce back yard</string>
+    <string name="no_blocker_user_yet">No Blocker User Yet</string>
+    <string name="no_place_found">Aucun Espace Trouvé</string>
+    <string name="type_a_message">Écrivez un Message...</string>
+    <string name="you_can_book_maximum_of_12_hours">You can Book maximum of 12 hours</string>
+    <string name="available_time_slots">CRÉNEAUX HORAIRES DISPONIBLES</string>
+    <string name="total">Total</string>
+    <string name="book_now">Réserver Maintenant</string>
+    <string name="select_country">Choisissez le pays</string>
+    <string name="create_profile">Créer un profil</string>
+    <string name="phone_no">N° Téléphone.</string>
+    <string name="lent_on">PRÊTÉ LE</string>
+    <string name="returned_on">RENDU LE</string>
+    <string name="you_rated">VOUS AVEZ NOTÉ</string>
+    <string name="no_categories_available">No Categories available</string>
+    <string name="add_basic_details_of_your_space">Add basic details of your Space.</string>
+    <string name="list_your_place_">Lister Votre Espace</string>
+    <string name="preferences">Préférences</string>
+    <string name="pricing">Tarification</string>
+    <string name="bank_details">Coordonnées Bancaires</string>
+    <string name="primary_account_linked">Compte principal lié</string>
+    <string name="tick_this_box_only_when_requeste">Cochez cette case uniquement à la demande du client. Consultez la FAQ pour plus d\'information!</string>
+    <string name="owner">Loueur</string>
+    <string name="spanner_set">Jeu de Clé</string>
+    <string name="about_this_tool">About This Tool</string>
+    <string name="see_more">... Voir plus</string>
+    <string name="loading_dot">Chargement...</string>
+    <string name="enable_location">ENABLE LOCATION</string>
+    <string name="no_notifications_yet">No Notifications Yet</string>
+    <string name="no_tul_listed_yet">No Tul Listed Yet</string>
+    <string name="available_from">DISPONIBLE À PARTIR DE</string>
+    <string name="available_on">DISPONIBLE LE</string>
+    <string name="security_charges_">Security Charges</string>
+    <string name="when_you_book_for_more_than_2_days">when you book for more than 2 days</string>
+    <string name="rate_this_user">Noter Cet Utilisateur</string>
+    <string name="write_a_review">Écrire une critique...</string>
+    <string name="submit">SUBMIT</string>
+    <string name="add_rule">AJOUTER RÈGLE</string>
+    <string name="looking_for">À LA RECHERCHE DE</string>
+    <string name="clear">EFFACER</string>
+    <string name="enter_title">Saisir le titre</string>
+    <string name="availability_options">Options de Disponibilité</string>
+    <string name="location">Localisation</string>
+    <string name="best_rated">Les Mieux NotéS</string>
+    <string name="pricing_option">Pricing option</string>
+    <string name="hourly_">Par Heure</string>
+    <string name="day">jours</string>
+    <string name="price_range">Price Range</string>
+    <string name="distance">Distance</string>
+    <string name="apply">APPLY</string>
+    <string name="filter_applied">Filtre appliqué</string>
+    <string name="choose_the_category_of_your_space">Choose the category of your Space</string>
+    <string name="change_password">Modifier le Mot de passe</string>
+    <string name="notifications">Notifications</string>
+    <string name="blocked_user">Utilisateur Bloquér</string>
+    <string name="about">À propos</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="terms_amp_conditions"><![CDATA[Termes & Conditions]]></string>
+    <string name="faq">FAQ</string>
+    <string name="send_us_feedback">Envoyez-nous votre avis</string>
+    <string name="tell_a_friend">Parlez-en à un ami</string>
+    <string name="raise_dispute">Déclarer un litige</string>
+    <string name="logout">SE DÉCONNECTER</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="sign_here">SIGNEZ ICI</string>
+    <string name="share_with_your_friends">Partagez avec vos amis</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="whatsapp">WHATSAPP</string>
+    <string name="message">MESSAGE</string>
+    <string name="price_per_hour_">Prix Par Heure</string>
+    <string name="price_per_day_">Prix Par Jour</string>
+    <string name="security_deposit_refundable_">Caution de garantie (Remboursable)</string>
+    <string name="extra_fee_">Frais supplémentaire</string>
+    <string name="add_new_address">AJOUTER UNE NOUVELLE ADRESSE</string>
+    <string name="summary">RÉCAPITULATIF</string>
+    <string name="check_in_date">CHECK IN DATE</string>
+    <string name="check_out_date">CHECK OUT Date</string>
+    <string name="iron_cutter">MEULEUSE ÉLECTRIQUE</string>
+    <string name="place_charges">Coûts de l\'espace</string>
+    <string name="extra_charges">Frais additionnels</string>
+    <string name="discount">Remise</string>
+    <string name="total_amount">Montant Total</string>
+    <string name="add_new_card">AJOUTER UNE NOUVELLE CARTE</string>
+    <string name="proceed_to_pay">Procéder Au Paiement</string>
+    <string name="no_reviews_yet">Aucun Avis Pour Le Moment</string>
+    <string name="no_rules_specified">Aucune règle spécifiée.</string>
+    <string name="booking_date">Date De Réservation</string>
+    <string name="not_received">NON REÇU</string>
+    <string name="received">REÇU</string>
+    <string name="set_preferences_like_availability_start_time_and_weather_you_deliver_tool_or_not">Set Preferences like availability start time,and weather you deliver tool or not.</string>
+    <string name="available">AVAILABLE</string>
+    <string name="how_it_works">Comment ça marche</string>
+    <string name="next">Suivant</string>
+    <string name="we_have_sent_a_verification_link_to_your_email_please_click_this_to_continue_the_sign_up_process">Nous avons envoyé un lien de vérification à votre email, veuillez cliquer ici pour continuer le processus d'inscription.</string>
+    <string name="verify_your_email">VÉRIFIEZ VOTRE EMAIL</string>
+    <string name="resend">RENVOYER</string>
+    <string name="join_us">Join US</string>
+    <string name="ok">OK</string>
+    <string name="broadcast">DIFFUSER</string>
+    <string name="check_in_cal">Check In</string>
+    <string name="check_out_cal">Check Out</string>
+    <string name="no_bookings_available">Aucune Réservation Disponible</string>
+    <string name="clear_conversation">Effacer Conversation</string>
+    <string name="block">Bloquer</string>
+    <string name="take_a_photo">Prendre Une Photo</string>
+    <string name="select_from_gallery">Sélectionner Depuis Galerie</string>
+    <string name="view_photo">Voir la photo</string>
+    <string name="booking_availability">DISPONIBILITÉ DE RÉSERVATION</string>
+    <string name="are_you_sure_you_want_to_discard_all_cards">Are you sure you want to discard all cards?</string>
+    <string name="confirm">Confirmer</string>
+    <string name="no_history_yet">No History Yet</string>
+    <string name="no_places_listed_yet">Aucun Espace Listé Pour Le Moment</string>
+    <string name="no_message_yet">No Message Yet</string>
+    <string name="no_notification_yet">No Notification Yet</string>
+    <string name="no_accounts_listed_yet">No Accounts Listed Yet</string>
+    <string name="no_cards_listed_yet">No Cards Listed Yet</string>
+    <string name="no_place_added_to_favourites_yet">Aucun espace ajouté aux favoris pour l\'instant</string>
+    <string name="no_statistics_available">No Statistics Available</string>
+    <string name="security_deposit_refundable_receipt">Caution De Garantie (Remboursable)</string>
+    <string name="delivery_charges">Frais De Livraison</string>
+    <string name="less_service_fee">Moins de Frais de service</string>
+    <string name="gross_total">Total Brut</string>
+    <string name="security_refunded">Caution Remboursée</string>
+    <string name="total_price">Prix Total</string>
+    <string name="my_earnings">MES REVENUS</string>
+    <string name="lifetime">DURÉE TOTALE À VIE</string>
+    <string name="overall_rating_stats">Note globale</string>
+    <string name="my_listed_places">my listed Places</string>
+    <string name="bookings">Bookings</string>
+    <string name="my">My</string>
+    <string name="unblock">DÉBLOQUER</string>
+    <string name="cvv">CVV</string>
+    <string name="booking_till_date">BOOKING TILL DATE</string>
+    <string name="checked_out">Checked Out</string>
+    <string name="earnings">EARNINGS</string>
+    <string name="active_bookings">Réservations en cours</string>
+    <string name="delete">SUPPRIMER</string>
+    <string name="list_your_place">Lister Votre Espace</string>
+    <string name="Cancellation_charges_will_be_deducted_from_booking_amount_Do_you_want_to_proceed">Les frais d\'annulation seront déduits du montant de la réservation. Voulez-vous continuer?</string>
+    <string name="By_cancelling_your_overall_ratings_will_be_reduced_and_this_will_affect_your_future_bookings_Do_you_want_to_proceed">En annulant, votre note globale sera réduite, ce qui affectera vos réservations futures. Voulez-vous continuer?</string>
+    <string name="Are_you_sure_you_want_to_mark_this_BACK_YARD_as_Checked_In">Êtes-vous sûr de vouloir marquer Check In pour ce BACK YARD?</string>
+    <string name="Are_you_sure_you_want_to_mark_this_Place_as_Checked_out">Are you sure, you want to mark this Place as Checked out.?</string>
+    <string name="Are_you_sure_you_want_to_mark_this_BACK_YARD_as_Check_out">Êtes-vous sûr de vouloir marquer Check Out pour ce BACK YARD?</string>
+    <string name="error_security_deposite">La caution de garantie ne peut être inférieure à</string>
+    <string name="zero_one"> 0.1</string>
+    <string name="error_extra_fee_Convience">Les frais supplémentaires ne peuvent être inférieurs à</string>
+    <string name="erroe_valid_account_number">Entrez un numéro de compte valide</string>
+    <string name="checkout">checkout</string>
+    <string name="invalid_expiry_date">date d'expiration non valide</string>
+    <string name="invalid_cvv_number">Numéro incorrect CVV</string>
+    <string name="You_already_saved_this_card_earlier">Vous avez déjà enregistré cette carte plus tôt.</string>
+    <string name="Are_you_sure_you_want_to_make_this_payment">Êtes-vous sûr de vouloir faire ce paiement?</string>
+    <string name="Enter_days_for_discount">Enter days for discount</string>
+    <string name="Number_of_Days_for_Discount_should_be_more_than_1">Number of Days for Discount should be more than 1</string>
+    <string name="Discount_should_be_greater_than_0_one">Discount should be greater than 0.1</string>
+    <string name="Enter_hours_for_discount">Enter hours for discount</string>
+    <string name="Number_of_hours_for_Discount_should_be_more_than_1">Le nombre d\'heures pour la remise devrait être supérieur à 1.</string>
+    <string name="Number_of_hours_for_Discount_should_be_less_than">Number of hours for Discount should be less than</string>
+    <string name="Discount_should_be_greater_than_0">Discount should be greater than 0</string>
+    <string name="Extra_free_should_be_less_than_999">Extra free should be less than 999</string>
+    <string name="Enter_valid_extra_fee">Enter valid extra fee</string>
+    <string name="NO_OF_DAYS_FOR_DISCOUNT">NOMBRE DE JOURS POUR LA REMISE</string>
+    <string name="NO_OF_HOURS_FOR_DISCOUNT">NOMBRE D\'HEURES POUR LA REMISE</string>
+    <string name="Please_wait">Please wait ...</string>
+    <string name="We_are_fetching_your_primary_account">We are fetching your primary account ...</string>
+    <string name="percent_fee_by_BACK_YARD">% de commission par BACK YARD.</string>
+    <string name="You_cannot_edit_category_of_tul">Vous ne pouvez pas modifier la catégorie de TUL</string>
+    <string name="Please_select_category_to_get_Amenities">Please select category to get Amenities.</string>
+    <string name="per_hour">par heure</string>
+    <string name="AVAILABLE_FROM">DISPONIBLE À PARTIR DE</string>
+    <string name="AVAILABLE_TILL">AVAILABLE TILL</string>
+    <string name="per_day">par jour</string>
+    <string name="suspended">SUSPENDU</string>
+    <string name="pause_booking">INTERROMPRE RÉSERVATION</string>
+    <string name="resume_booking">RESUME BOOKING</string>
+    <string name="edit">Modifier</string>
+    <string name="about_this">À Propos</string>
+    <string name="discount_availed">Remise Accordée -</string>
+    <string name="discount_offered">Remise Offerte -</string>
+    <string name="rented_to">LOUÉ À</string>
+    <string name="read_more">...Lire plus</string>
+    <string name="report">Signaler</string>
+    <string name="REPORT">SIGNALER</string>
+    <string name="pink_one">Choisissez une option</string>
+    <string name="something_went_wrong">Quelque chose ne va pas</string>
+    <string name="max_character_limit_is_2000">Max Character Limit is 2000</string>
+    <string name="Are_you_sure_you_want_to_block_this_User">Êtes-vous sûr de vouloir bloquer cet utilisateur?</string>
+    <string name="You_need_to_unblock_this_user_to_send_a_message">Vous devez débloquer cet utilisateur pour envoyer un message.</string>
+    <string name="Are_you_sure_you_want_to_clear_this_conversation">Êtes-vous sûr de vouloir effacer cette conversation?</string>
+    <string name="select_date">Sélectionner La Date</string>
+    <string name="Check_In">Check In</string>
+    <string name="Check_Out">Check Out</string>
+    <string name="When_You_Book_for_at_least">Lorsque vous réservez au moins</string>
+    <string name="days">jours</string>
+    <string name="You_can_book_maximum_of">You can book maximum of</string>
+    <string name="hours">heures</string>
+    <string name="Please_select_at_least_one_date">Please select at least one date</string>
+    <string name="Their_are_no_available_time_slots_of">Their are no available time slots of</string>
+    <string name="hours_for_this_Date">hours for this Date</string>
+    <string name="Please_select_Booking_Time">Please select Booking Time</string>
+    <string name="booking_paused">Booking Paused</string>
+    <string name="NO_TIME_SLOTS_AVAILABLE">NO TIME SLOTS AVAILABLE</string>
+    <string name="AVAILABLE_TIME_SLOTS">CRÉNEAUX HORAIRES DISPONIBLES</string>
+    <string name="inbox">MESSAGERIE</string>
+    <string name="Are_you_sure_you_want_to_clear_this_chat">Are you sure you want to clear this chat?</string>
+    <string name="dashboard">TABLEAU DE BORD</string>
+    <string name="cancelled_on">ANNULÉ LE</string>
+    <string name="new_version_available">A newer version of BACK YARD is available would you like to update?</string>
+    <string name="places">ESPACES</string>
+    <string name="Please_List_Your_Tul">S'il vous plaît Inscrivez votre TUL.</string>
+    <string name="Please_add_Preferences_for_your_tul">S'il vous plaît ajouter préfrences pour votre TUL.</string>
+    <string name="Please_add_Bank_Details_for_your_tul">S'il vous plaît ajouter votre coordonnées bancaires pour TUL.</string>
+    <string name="Primary_account_is_already_linked_with_the_Place._You_can_change_your_primary_account_from_the_Payments_section">Primary account is already linked with the Place. You can change your primary account from the Payments section</string>
+    <string name="ALERT_If_You_change_Your_Booking_Availability_Your_Price_And_Preferences_will_be_Reset">ALERT! If You change Your Booking Availability Your Price And Preferences will be Reset!</string>
+    <string name="Compressing_Video">Compressing Video ...</string>
+    <string name="reselect_your_loaction">Reselect Your Location</string>
+    <string name="Sorry_unable_to_fetch_location">Désolé pas chercher l'emplacement</string>
+    <string name="please_turn_on_your_gps_to_continue">Please turn on your GPS to continue</string>
+    <string name="Fetching_0Location">Fetching Location</string>
+    <string name="Please_select_location">Please select location</string>
+    <string name="Near_By_Places">Near By Places</string>
+    <string name="NOTIFICATIONS">NOTIFICATIONS</string>
+    <string name="CANCELLED">ANNULÉ</string>
+    <string name="Borrower">Locataire</string>
+    <string name="RETURNED">RENDU</string>
+    <string name="RECEIVED">REÇU</string>
+    <string name="NOT_RECEIVED">NON REÇU</string>
+    <string name="HANDED_OVER">DÉLIVRÉ</string>
+
+    <string name="Buffering_Video">Buffering Video ...</string>
+    <string name="Set_preferences_like_availability_check_in_and_check_out">Set preferences like availability, check in and check out.</string>
+    <string name="PRICE_OFFERS"><![CDATA[PRICE & OFFERS]]></string>
+    <string name="RATE_YOUR_EXPERIENCE">NOTEZ VOTRE EXPÉRIENCE</string>
+    <string name="Please_provide_rating">S'il vous plaît fournir note.</string>
+    <string name="Filter_Applied">Filtre appliqué</string>
+    <string name="Are_you_sure_you_want_to_clear_filters">Etes-vous sûr de vouloir effacer les filtres?</string>
+    <string name="Please_select_category">Please select category.</string>
+    <string name="SETTINGS">PARAMÈTRES</string>
+    <string name="LOGOUT">SE DÉCONNECTER</string>
+    <string name="Are_you_sure_you_want_to_Logout">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="CONFIRM">CONFIRMER</string>
+    <string name="SIGNATURE">SIGNATURE</string>
+    <string name="I_hereby_declare_that_I_am_checking_out_from_the_Place">Je déclare par la présente que je quitte les lieux..</string>
+    <string name="I_hereby_declare_that_the_user_has_checked_out_from_the_Place">Je déclare par la présente que l\'utilisateur a quitté les lieux.</string>
+    <string name="I_hereby_declare_that_I_am_cancelling_Place">Je déclare par la présente que j\'annule l\'Espace loué.</string>
+    <string name="_booking">booking.</string>
+    <string name="Please_Sign_above">Inscrivez-vous ci-dessus s'il vous plaît</string>
+    <string name="By_signing_up_i_agree_to_the_Terms_and_Conditions">En vous inscrivant j'accepte les Termes et Conditions.</string>
+    <string name="TELL_A_FRIEND">PARLEZ-EN À UN AMI</string>
+    <string name="Linked_Account">COMPTE LIÉ</string>
+    <string name="When_you_book_for_at_least">Lorsque vous réservez au moins</string>
+    <string name="This_is_the_total">This is the total</string>
+    <string name="you_will_earn_after_deduction_of">you will earn after deduction of</string>
+    <string name="This_is_the_total_price_you_will_earn_after_deduction_of">Il s\'agit du total des frais supplémentaires que vous gagnerez après déduction de</string>
+    <string name="percentage_fee_by_BACK_YARD">% de commission par BACK YARD.</string>
+    <string name="WhatsApp_is_not_installed">WhatsApp n\'est pas installé sur votre téléphone.</string>
+    <string name="SUMMARY_CHECKOUT"><![CDATA[SUMMARY & CHECKOUT]]></string>
+    <string name="Place_Charges_per_hour_x">Coûts de l\'espace (par heure) x</string>
+    <string name="Place_Charges_per_day_x">Coûts de l\'espace (par jour)x</string>
+    <string name="Please_add_card_details">S'il vous plaît ajouter des détails de carte</string>
+    <string name="Please_enter_CVV_number">S'il vous plaît entrer le numéro CVV</string>
+    <string name="Invalid_cvv_number">Numéro incorrect CVV</string>
+    <string name="Invalid_card">Carte invalide</string>
+    <string name="Sorry_unable_to_fetch_your_location">Sorry unable to fetch your location.</string>
+    <string name="Your_selected_location_is_not_in_range_Please_choose_another_address">Your selected location is not in range. Please choose another address.</string>
+    <string name="This_Place_has_been_removed_by_owner">This Place has been removed by owner.</string>
+    <string name="Payment_Exceed">Payment Exceed</string>
+    <string name="Details_Changed">Details Changed</string>
+    <string name="Alert">Alert!</string>
+    <string name="NO_INTERNET_CONNECTION">Pas de connexion Internet</string>
+    <string name="NO_REVIEWS_YET">AUCUN AVIS POUR LE MOMENT</string>
+    <string name="PREFERENCES">PRÉFÉRENCES</string>
+    <string name="START_TIME">Heure de début -</string>
+    <string name="CHECK_IN">CHECK IN</string>
+    <string name="Search_for_a_Space">Rechercher un Espace</string>
+    <string name="Search_venues_from_the_given_categories_and_apply_any_desired_filters">Recherchez un espace à partir des catégories proposées et appliquez les filtres souhaités.</string>
+    <string name="Book_a_Space">Réserver un Espace</string>
+    <string name="Available_venues_will_be_displayed._Select_the_one_you_find_suitable_and_proceed_to_book">Les endroits disponibles seront affichés. Sélectionnez celui qui vous convient et procédez à la réservation.</string>
+    <string name="Make_online_payment_and_check_the_status_of_the_rented_venues_with_ease">Effectuez le paiement en ligne et vérifiez le statut de la location avec facilité.</string>
+    <string name="Become_a_Host">Devenir Hôte</string>
+    <string name="Add_your_own_spaces_with_all_the_required_information">Ajoutez vos propres espaces avec toutes les informations requises.</string>
+    <string name="Check_Status">Vérifier le statut</string>
+    <string name="Track_the_status_of_all_the_rented_venues_with_ease">Suivez facilement létat de tous les espaces loués.</string>
+    <string name="Dashboard">Tableau de bord</string>
+    <string name="Check_all_your_statistics_and_earnings_effortlessly">Consultez facilement tous les statistiques et revenus.</string>
+    <string name="OTP_Successfully_sent">OTP Successfully sent</string>
+    <string name="Call_initiated_successfully">Call initiated successfully</string>
+    <string name="Internet_connection_not_available">Connexion internet indisponible!</string>
+    <string name="You_cannot_check_out_before_the_scheduled_booking_date_and_time">Vous ne pouvez pas check out avant la date et l\'heure planifiées de la réservation</string>
+    <string name="REVIEWS">AVIS</string>
+    <string name="Not_booked_yet">Not booked yet!</string>
+    <string name="Mark_Check_In">Mark Check In</string>
+    <string name="Mark_Check_Out">Mark Check Out</string>
+    <string name="RENTED">LOUÉ</string>
+    <string name="delete_account">SUPPRIMER LE COMPTE</string>
+    <string name="Change_Language">Change Language</string>
+    <string name="English">English</string>
+    <string name="Italian">Italian</string>
+    <string name="Spanish">Spanish</string>
+    <string name="French">French</string>
+    <string name="German">German</string>
+    <string name="Romanian">Romanian</string>
+    <string name="delete_account_">La suppression de votre compte supprimera définitivement tout le contenu. Etes-vous sûr de vouloir supprimer votre compte?</string>
+
+
+</resources>

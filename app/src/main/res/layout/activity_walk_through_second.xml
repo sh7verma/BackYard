@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    tools:context=".WalkThroughSecondActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/signup_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/ll_walk_through_second_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/walk2" />
+        </ScrollView>
+
+        <customviews.SemiboldTextView
+            android:id="@+id/bt_walk_through_second_join_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/gradient_ripple"
+            android:text="@string/join_us"
+            android:textAllCaps="true"
+            android:textColor="@color/white_color" />
+    </LinearLayout>
+</LinearLayout>

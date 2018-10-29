@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_base"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:id="@+id/ll_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_price_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LIST_YOUR_PLACE_PRICE"
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/rl_preferences_main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp">
+
+
+            <LinearLayout
+                android:id="@+id/ll_preferences_entry_main_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_price_per_hour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/price_per_hour"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/price_per_hour"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_price_per_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/price_per_day"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/price_per_day"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customviews.MaterialEditText
+                        android:id="@+id/ed_your_earning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="@string/your_earning"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        app:met_floatingLabel="normal"
+                        app:met_floatingLabelAnimating="true"
+                        app:met_floatingLabelText="@string/your_earning"
+                        app:met_floatingLabelTextColor="@color/hint_color_dark"
+                        app:met_hideUnderline="true"
+                        app:met_textColor="@color/black_color"
+                        app:met_textColorHint="@color/hint_color_dark" />
+
+
+                    <ImageView
+                        android:id="@+id/img_your_earning_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_info" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/viewearning"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_security_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/security_deposit_refundable"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/security_deposit_refundable"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_extra_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/extra_fee"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/extra_fee"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customviews.MaterialEditText
+                        android:id="@+id/ed_extra_earning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="@string/extra_fee_earning"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        app:met_floatingLabel="normal"
+                        app:met_floatingLabelAnimating="true"
+                        app:met_floatingLabelText="@string/extra_fee_earning"
+                        app:met_floatingLabelTextColor="@color/hint_color_dark"
+                        app:met_hideUnderline="true"
+                        app:met_textColor="@color/black_color"
+                        app:met_textColorHint="@color/hint_color_dark" />
+
+                    <ImageView
+                        android:id="@+id/img_extra_earning_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_info" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/viewextraearning"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_set_discount_offer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="@string/set_discount_offer"
+                    android:textColor="@color/black_color" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_no_days_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/no_of_days_for_discount"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/no_of_days_for_discount"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_no_hours_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/no_of_hours_for_discount"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/no_of_hours_for_discount"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view_hours"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_discount_percentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/discount_per"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/discount_per"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@color/hint_color_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_price_buttons_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@color/white_color"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/bt_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient_default"
+                    android:text="@string/save_amp_next"
+                    android:textColor="@color/white_color"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt_discard"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_ripple"
+                    android:text="@string/discard"
+                    android:textColor="@color/hint_color_dark"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+

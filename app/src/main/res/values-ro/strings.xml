@@ -1,0 +1,785 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+    <string name="app_name">BACK YARD</string>
+    <string name="login">Login</string>
+    <string name="app_id">832601126864557</string>
+    <string name="google_maps_key">AIzaSyBq9-M35AEnxI4lMyfMOZVhwe2gm11n9Ao</string>
+
+    //codes
+    <string name="cannot_connect_server">Kann nicht mit dem Server verbinden</string>
+    <string name="error">Ceva n-a mers bine!</string>
+    <string name="internet">Conexiune internet ne disponibilă!</string>
+    <string name="success">200</string>
+    <string name="invalid_access_token">420</string>
+    <string name="treminate_account">405</string>
+
+    <string name="enter_email">Vă rugăm să introduceți e-mailul</string>
+    <string name="enter_valid_email">Vă rugăm să introduceți un e-mail valid</string>
+    <string name="enter_password">Vă rugăm să introduceți Parola</string>
+    <string name="error_password">Per favore Inserisci Passwort Valida con un minimo di 8 caratteri</string>
+    <string name="cancel_message">Prin anularea, valutarea globală dvs. va fi redusă, si va afecta rezervările viitoare ale dvs. Doriți să continuați?</string>
+    <string name="start_sharing_your_tuls">Start Sharing Your BACK YARD</string>
+    <string name="log_in">AUTENTIFICARE</string>
+    <string name="sign_up">ÎNSCRIETE</string>
+    <string name="login_with_facebook">AUTENTIFICARE CU FACEBOOK</string>
+    <string name="email">E-mail</string>
+    <string name="passowrd">Parola</string>
+    <string name="forgot_password">Aţi uitat parola?</string>
+    <string name="password">Parola</string>
+    <string name="error_code">Vă rugăm să introduceți codul de țară.</string>
+    <string name="by_signing_up_i_agree_to_the_terms_amp_conditions"><![CDATA[Prin înscrierea Sunt de acord cu Termenii și condițiile]]></string>
+    <string name="reset_password_hint">Please enter your registered email Id in order to get a reset link. You will able to set a new password from there.</string>
+    <string name="reset">RESET</string>
+    <string name="full_name">Numele complet</string>
+    <string name="enter_phone_no">Introduceți numărul de telefon</string>
+    <string name="error_name">Please enter valid name with minimum 2 characters.</string>
+    <string name="error_first_name">Vă rugăm să introduceți un Prenume valid cu minim 2 caractere.</string>
+    <string name="error_last_name">Vă rugăm să introduceți un Nume de Familie cu minim 2 caractere.</string>
+    <string name="error_pic">Vă rugăm să adăugați o fotografie de profil.</string>
+    <string name="enter_phone">Vă rugăm să introduceți numărul de telefon</string>
+    <string name="enter_valid_number">Vă rugăm să introduceți un număr de telefon valid</string>
+    <string name="verfication_hint_msg">Vă rugăm să introduceți codul de verificare trimis la</string>
+    <string name="call">Apelează</string>
+    <string name="done">TERMINAT</string>
+    <string name="select_category">SELECTEAZĂ O CATEGORIE</string>
+    <string name="lender_side">SABLON GAZDĂ</string>
+    <string name="user_side">SIDE USER</string>
+    <string name="edit_profile">EDITAȚI PROFILUL</string>
+    <string name="security_charges">GARANȚIA DE SECURITATE (RAMBURSABIL)</string>
+    <string name="convenience_fee">COSTURI SUPLIMENTARE</string>
+    <string name="error_country_code">Vă rugăm să selectați Codul de Țară</string>
+    <string name="error_currency">Vă rugăm să selectați moneda</string>
+    <string name="error_account">Vă rugăm să introduceți număr IBAN.</string>
+    <string name="error_sort_code">Vă rugăm să introduceți codul SWIFT</string>
+    <string name="error_city">Vă rugăm să introduceți Orașul</string>
+    <string name="error_state">Vă rugăm să introduceți Țară</string>
+    <string name="error_postal_code">Vă rugăm să introduceți Codul Poștal</string>
+    <string name="error_dob">Vă rugăm să introduceți Data de Naștere</string>
+    <string name="error_document">Vă rugăm să adăugați un document pentru verificare</string>
+    <string name="share_content">Aruncati o privire la aplicația mobilă BACK YARD pentru telefoane smartphone, această aplicație va evită să pierdeți timp. Descărcați-o acum de la yourbackyardapp.com</string>
+
+    <string name="lorem_ipsum_dolor">Lorem Ipsum Dolor</string>
+    <string name="lorem_ipsum_desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="looking_for_a_tul">CAUTAȚI </string>
+    <string name="become_a_host">DEVENITI GAZDĂ</string>
+    <string name="verify">VERIFICAȚI</string>
+    <string name="book_and_rent_places_for_events_in_a_matter_of_seconds_now">Book and rent places for events in a matter of seconds now.</string>
+    <string name="where_are_you">Where Are You?</string>
+    <string name="location_msg">Your location services need to be turned on in order for this to work.</string>
+    <string name="enter_rule">Introduceți Regula</string>
+    <string name="cancel">ANULARE</string>
+    <string name="listed_tuls">Proprietăți Publicate</string>
+    <string name="my_short_list">Favoritele Mele</string>
+    <string name="add">ADAUGAȚI</string>
+    <string name="add_additional_prices">Adăugați Preturi Aditionale</string>
+    <string name="edit_additional_prices">Edit Aditional Prices</string>
+    <string name="list_places">List Your Place</string>
+    <string name="title">TITLU</string>
+    <string name="category">Categorie</string>
+    <string name="description">DESCRIERE</string>
+    <string name="error_start_time">Please enter Check In time</string>
+    <string name="error_end_time">Please enter Check Out time</string>
+    <string name="error_hrs_start_time">Please enter Start Time For Hours</string>
+    <string name="error_hrs_end_time">Please enter End Time For Hours</string>
+    <string name="no_of_tul_available">NO. OF TUL AVAILABLE</string>
+    <string name="price">PREȚUL</string>
+    <string name="additional_prices">Preturi suplimentare</string>
+    <string name="address">ADRESA</string>
+    <string name="rules">Reguli</string>
+    <string name="add_images_video">Adaugați Poze/Video</string>
+    <string name="no_location_found">Nicio locație găsită.</string>
+    <string name="searching">Searching...</string>
+    <string name="search">Căutare</string>
+    <string name="set_location_on_map">SET  LOCATION ON MAP</string>
+    <string name="fetching_current_location">Fetching actual Localizare</string>
+    <string name="add_your_first_tul">Add Your First Place</string>
+    <string name="update">ACTUALIZAȚI</string>
+    <string name="delete_message">Sunteți sigur că doriți să ștergeți imaginea sau video?</string>
+    <string name="confrim">Confirmați</string>
+    <string name="add_rules">ADĂUGAȚI REGULI</string>
+    <string name="edit_rules">EDIT RULES</string>
+    <string name="reviews_and_ratings">OPINII SI VALUTĂRI</string>
+    <string name="cancellation_policies">POLITICA DE ANULARE</string>
+    <string name="prefrences">PREFERINȚE</string>
+    <string name="linked_account">CONT ADAUGAT</string>
+    <string name="add_photo">Adăugați o Poză</string>
+    <string name="capture_video">Adăugați un Video</string>
+    <string name="error_image_count">Nu puteți introduce mai mult de 6 imagini.</string>
+    <string name="error_video_count">Nu puteți introduce mai mult de 1 video.</string>
+    <string name="weekdays">Zile lucrătoare</string>
+    <string name="only_weekends">Numai weekend</string>
+    <string name="both">Ambele</string>
+    <string name="pause_message">Pauzarea rezervărilor va dezabilita ulterioare rezervări de către utilizatori. Sunteți sigur că doriți să Pauzați Rezervările?</string>
+    <string name="resume_message">CV-ul de rezervare va permite rezervarea în continuare de către utilizatori. Sunteți sigur că doriți să reluați rezervarea?</string>
+
+    <string name="last_name_profile">NUMELE</string>
+    <string name="error_image_video_count">Nu puteți introduce mai mult de 7 imagini/video</string>
+    <string name="save_amp_next"><![CDATA[SALVAȚI ȘI CONTINUAȚI]]></string>
+    <string name="discard_message">Are you sure you want to discard? Your Preferences data,discount days and discount percentage will be reset.</string>
+    <string name="discard_days_message">Sunteți sigur că doriți să renunțați?</string>
+
+    <string name="discard_discount">Ai modificat ora de începere. Deci informațiile de livrare au fost resetate.</string>
+    <string name="error_title">Vă rugăm să introduceți un titlu.</string>
+    <string name="error_category">Vă rugăm să selectați categoria</string>
+    <string name="error_descrption">Vă rugăm să introduceți o descriere.</string>
+    <string name="error_no_tuls">Vă rugăm să introduceți nr. de tuls</string>
+    <string name="error_no_valid">Vă rugăm să introduceți o cantitate validă</string>
+    <string name="error_price">Vă rugăm să introduceți un preț valid</string>
+    <string name="error_valid_price">Please enter  a valid price</string>
+    <string name="error_max_price">Puteți seta taxe max pana la 999 numai</string>
+    <string name="error_addtional_prices">Vă rugăm să introduceți prețuri suplimentare</string>
+    <string name="error_max_fee">You can set extra fee upto 999 only</string>
+    <string name="extra_fee_error">Vă rugăm să adăugați taxă suplimentară validă </string>
+    <string name="error_max_security_price">Puteți seta depozit de securitate pana la 900000 numai</string>
+    <string name="error_address">Vă rugăm să introduceți o adresă.</string>
+    <string name="error_rules">Vă rugăm să introduceți reguli</string>
+    <string name="error_image_video">Vă rugăm să adăugați cel puțin un videoclip sau o imagine.</string>
+    <string name="security_fee_error">Please add security fee</string>
+    <string name="error_valid_fee">Vă rugăm să introduceți o taxă validă</string>
+    <string name="transition">tranziție</string>
+    <string name="payment_exceed_code">423</string>
+
+    <string name="remove_account">Sunteți sigur că doriți să eliminați acest cont?</string>
+    <string name="primary_account">Doriți să selectați acesta ca contul principal?</string>
+    <string name="payment">PLĂȚI</string>
+    <string name="saved_cards">SALVATE CARDURI</string>
+    <string name="accounts">CONTURI</string>
+    <string name="name_on_card">NUMELE DE PE CARD</string>
+    <string name="card_no">NUMĂR DE CARD</string>
+    <string name="expiry_month">EXPIRĂRII MONTH</string>
+    <string name="expiry_year">EXPIRĂRII YEAR</string>
+    <string name="add_debit_credit_card">ADD DEBIT / CREDIT CARD</string>
+    <string name="error_card_no">Introduceți numărul cardului</string>
+    <string name="error_valid_card_no">Introduceți numărul de card valid</string>
+    <string name="error_month">Introdu o lună de expirare</string>
+    <string name="error_year">Introdu anul expirării</string>
+    <string name="error_valid_account">Introduceți numărul de cont valid</string>
+
+    ///skip
+    <string name="contact">CONTACTAȚI</string>
+
+    <string name="Login_First">Numai utilizatorii înregistrați pot continua mai departe. Doriți să va înregistrați si să explorați aplicația?</string>
+
+    <string name="contact_admin_tul">Contul dvs. este suspendat de administrator. Ne puteți contacta la <u>info@yourbackyardapp.com</u>.</string>
+    <string name="contact_admin_user">Contul dvs. este suspendat de administrator. Ne puteți contacta la <u>info@yourbackyardapp.com</u>.</string>
+    <string name="verify_email_2">Adresa dvs. de email nu este verificată, asigurați-vă că utilizați adresa email corectă. Numai adresele email verificate pot primi o chitanță de tranzacție. Doriți să continuați fără verificare?</string>
+    <string name="verify_email">Adresa ta de email încă nu este verificată. Faceți clic pe Retrimite să primiți un e-mail de confirmare.</string>
+    <string name="place_is_blocked">This PLACE is suspended by the admin.</string>
+    <string name="owner_is_blocked">Proprietarul a fost suspendat de către administrator.</string>
+
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_tul_rules">TulRulesActivity</string>
+    <string name="overall_rating">Rating-ul global</string>
+    <string name="AMENITIES">ADD AMENITIES</string>
+    <string name="amenities">FACILITĂȚI</string>
+    <string name="discard">ȘTERGEȚI</string>
+    <string name="dob">DOB</string>
+    <string name="postal_code">COD POȘTAL</string>
+    <string name="state">STAT</string>
+    <string name="city">ORAȘ</string>
+    <string name="address_caps">ADRESA</string>
+    <string name="first_name">Prenumele</string>
+    <string name="first_name_caps">PRENUMELE</string>
+    <string name="last_name">Numele</string>
+    <string name="last_name_caps">NUMELE</string>
+    <string name="sort_code">IBAN</string>
+    <string name="account_no">CONT NR.</string>
+    <string name="currency">VALUATA</string>
+    <string name="country_code">COD ȚARĂ</string>
+    <string name="account_details">Detalii cont</string>
+    <string name="check_out">CHECK-OUT FACUT</string>
+    <string name="check_in">CHECK-IN FACUT</string>
+    <string name="add_bank_detail">ADĂUGAȚI DETALII BANCARE</string>
+    <string name="add_id_verification_document">ADĂUGAȚI UN DOCUMENT DE IDENTITATE</string>
+    <string name="error_Amenities">Enter Amenities</string>
+    <string name="just_click_on_add_button_for_new_rules">Doar faceți clic pe butonul "Andaugă" pentru a adăuga noi reguli.</string>
+    <string name="delete_tul">Sunteți sigur că doriți să ștergeți acestă Proprietate?</string>
+    <string name="all_data_discard">Dacă reveniți-vă toate datele vor fi eliminate. Sunteți sigur că doriți să renunțați?</string>
+    <string name="add_new_account">Adăugați Un Cont</string>
+    <string name="lent_tuls">PROPRIETĂȚI REZERVATE</string>
+    <string name="rented_tuls">Rented Places</string>
+    <string name="report_msg">Are you sure you want to report this Place?</string>
+    <string name="current_password">Parola actuală</string>
+    <string name="new_password">Parolă Nouă</string>
+    <string name="re_enter_password">Reintrodu parola</string>
+    <string name="password_mismatch">Pentru a confirma trebuie să introduceți Parola de două ori.</string>
+
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">ADD CALENDARUL EVENIMENT</string>
+    <string name="sun">SOARE</string>
+    <string name="mon">MON</string>
+    <string name="tue">SUT</string>
+    <string name="wed">WED</string>
+    <string name="thu">JOI</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">30</string>
+    <string name="booked">Rezervat</string>
+    <string name="pickup_delivery"><![CDATA[Pickup & Livrare]]></string>
+    <string name="returnn">Întoarcere</string>
+    <string name="all">Toate</string>
+    <string name="MESSAGES">MESAJE</string>
+    <string name="NOTIFICATIONs">NOTIFICĂRI</string>
+    <string name="file_size_exceeds">Dimensiunea fișierului depășește limita de 100MB</string>
+    <string name="pause_error">306</string>
+    <string name="edit_error">302</string>
+    <string name="error_already_marked">300</string>
+    <string name="start_time_for_hours">ORA DE ÎNCEPERE</string>
+    <string name="hourly">By Hours</string>
+    <string name="daily">By Days</string>
+    <string name="price_per_hour">PREȚUL LA ORĂ</string>
+    <string name="price_per_day">PREȚUL LA ZI</string>
+    <string name="error_price_per_hour">Enter Price Per Hour</string>
+    <string name="error_price_per_day">Enter Price Per Day</string>
+    <string name="error_valid_day_price">Enter valid day price</string>
+    <string name="error_max_day_price">You can set Day Price upto 999 only</string>
+    <string name="error_valid_hourly_price">Enter Valid Hourly Price</string>
+    <string name="error_max_hourly_price">You can set Hourly Price upto 999 only</string>
+    <string name="error_discount_percentage">Enter discount percentage</string>
+    <string name="error_max_discount">You can set discount percentage upto 99 only</string>
+    <string name="error_no_bookings">Enter number of bookings</string>
+    <string name="error_extra_fees">Enter extra fees</string>
+    <string name="error_valid_security_fee">Enter valid security fee</string>
+    <string name="min_price">Price cannot be less than 0.0001</string>
+    <string name="price_and_offers">PRICE &amp; OFFERS</string>
+    <string name="Edit_basic_detail_of_your_tul">Editați informațiile despre Proprietatea dvs.</string>
+    <string name="add_basic_detail_of_your_tul">Adăugați detalii a Propretați dvs.</string>
+    <string name="LIST_YOUR_PLACE_ADD_AMENITIES">Set amenities of your space</string>
+    <string name="LIST_YOUR_TUL_ADD_PREFERENCES">Set Preferences like Start Time and Availability</string>
+    <string name="LIST_YOUR_PLACE_PRICE">Definiți informațile despre preț și reducere.</string>
+    <string name="remove_card">Sunteți sigur că doriți să eliminați acest card?</string>
+    <string name="List_your_place">List your Place, become a lender, and start earning!</string>
+    <string name="end_time_for_hours">END TIME FOR HOURS</string>
+    <string name="share_your_spaces_by_day_or_by_hour">Share your spaces by day or by hour</string>
+    <string name="Admin_Percentage">Procentul tranzacției a fost schimbat.</string>
+
+    <string name="Skip"><![CDATA[TRECE PESTE >>]]></string>
+    <string name="no_active_bookings_yet">Înca Nici O Rezervare În Progres</string>
+    <string name="enter_your_bank_details">Enter your bank details to receive your funds in future.</string>
+    <string name="your_earning">VENITURILE TALE</string>
+    <string name="security_deposit_refundable">GARANȚIA DE SECURITATE (RAMBURSABIL)</string>
+    <string name="extra_fee">COSTURI SUPLIMENTARE</string>
+    <string name="extra_fee_earning">VENITURI DIN COSTURI SUPLIMENTARE</string>
+    <string name="set_discount_offer">SETAȚI REDUCEREA</string>
+    <string name="no_of_days_for_discount">NUMĂR DE ZILE PENTRU REDUCERE</string>
+    <string name="no_of_hours_for_discount">NUMĂRUL DE ORE PENTRU REDUCERE</string>
+    <string name="discount_per">REDUCERE (%)</string>
+    <string name="no_amenities_for_this_category">No Amenities for this category.</string>
+    <string name="spanning_tool">Spanning tool</string>
+    <string name="rented">Închiriate</string>
+    <string name="total_earnings">Venituri Totale</string>
+    <string name="about_this_back_yard">DESPRE ACEASTĂ PROPRIETATE</string>
+    <string name="no_blocker_user_yet">No Blocker User Yet</string>
+    <string name="no_place_found">Nici O Proprietate Găsită</string>
+    <string name="type_a_message">Scrieți un mesaj...</string>
+    <string name="you_can_book_maximum_of_12_hours">You can Book maximum of 12 hours</string>
+    <string name="available_time_slots">SLOTS DE TIMP DISPONIBILE</string>
+    <string name="total">Total</string>
+    <string name="book_now">REZERVĂ ACUM</string>
+    <string name="select_country">Selecteaza tara</string>
+    <string name="create_profile">Creeaza un profil</string>
+    <string name="phone_no">Nr de Telefon</string>
+    <string name="lent_on">ÎNCHIRIAT PE</string>
+    <string name="returned_on">xRESTITUIT PE</string>
+    <string name="you_rated">AȚI EVALUAT</string>
+    <string name="no_categories_available">No Categories available</string>
+    <string name="add_basic_details_of_your_space">Add basic details of your Space.</string>
+    <string name="list_your_place_">Publicați Proprietatea Dvs</string>
+    <string name="preferences">Preferințe</string>
+    <string name="pricing">Prețurile</string>
+    <string name="bank_details">Detalii Bancare</string>
+    <string name="primary_account_linked">Cont principal adăugat</string>
+    <string name="tick_this_box_only_when_requeste">Bifați această casută numai la cererea clientului. Consultați întrebările frecvente pentru mai multe informații!</string>
+    <string name="owner">Proprietar</string>
+    <string name="spanner_set">Set de chei</string>
+    <string name="about_this_tool">About This Tool</string>
+    <string name="see_more">...Vezi mai mult</string>
+    <string name="loading_dot">Încărcare...</string>
+    <string name="enable_location">ENABLE LOCATION</string>
+    <string name="no_notifications_yet">Nu există notificări Cu toate acestea,</string>
+    <string name="no_tul_listed_yet">Nu TUL încă listat</string>
+    <string name="available_from">DISPONIBIL DE</string>
+    <string name="available_on">DISPONIBIL PE</string>
+    <string name="security_charges_">Security Charges</string>
+    <string name="when_you_book_for_more_than_2_days">when you book for more than 2 days</string>
+    <string name="rate_this_user">Evaluați Acest Utilizator</string>
+    <string name="write_a_review">Scrie o recenzie...</string>
+    <string name="submit">SUBMIT</string>
+    <string name="add_rule">ADAUGĂ REGULĂ</string>
+    <string name="looking_for">CAUTAȚI</string>
+    <string name="clear">ȘTERGE</string>
+    <string name="enter_title">Introdu titlul</string>
+    <string name="availability_options">Opțiuni de Disponibilitate</string>
+    <string name="location">Locație</string>
+    <string name="best_rated">Cel Mai Bine Evaluate</string>
+    <string name="pricing_option">Pricing option</string>
+    <string name="hourly_">la Oră</string>
+    <string name="day">Zi</string>
+    <string name="price_range">Price Range</string>
+    <string name="distance">Distanța</string>
+    <string name="apply">APLICĂ</string>
+    <string name="filter_applied">Filtru Aplicat</string>
+    <string name="choose_the_category_of_your_space">Choose the category of your Space</string>
+    <string name="change_password">Schimbare Parolă</string>
+    <string name="notifications">Notificări</string>
+    <string name="blocked_user">Utilizator Blocați</string>
+    <string name="about">Despre</string>
+    <string name="privacy_policy">Politica de Confidențialitate</string>
+    <string name="terms_amp_conditions"><![CDATA[Termeni și condiții]]></string>
+    <string name="faq">Întrebări Frecvente</string>
+    <string name="send_us_feedback">Trimite-ne părerea ta</string>
+    <string name="tell_a_friend">Spunei la un prieten</string>
+    <string name="raise_dispute">Începe un Litigiu</string>
+    <string name="logout">DECONECTARE</string>
+    <string name="version_1_0">Versiunea 1.0</string>
+    <string name="sign_here">Semnați aici</string>
+    <string name="share_with_your_friends">Partajați cu prietenii vostri</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="whatsapp">WHATSAPP</string>
+    <string name="message">MESAJ</string>
+    <string name="price_per_hour_">Prețul la oră</string>
+    <string name="price_per_day_">Prețul la zi</string>
+    <string name="security_deposit_refundable_">Garanția de securitate (Rambursabil)</string>
+    <string name="extra_fee_">Costuri suplimentare</string>
+    <string name="add_new_address">ADAUGĂ O NOUĂ ADRESĂ</string>
+    <string name="summary">REZUMAT</string>
+    <string name="check_in_date">CHECK IN DATE</string>
+    <string name="check_out_date">CHECK OUT Date</string>
+    <string name="iron_cutter">POLIZOR UNGHIULAR</string>
+    <string name="place_charges">Pretul Prorietații</string>
+    <string name="extra_charges">Cheltuieli Suplimentare</string>
+    <string name="discount">Reducere</string>
+    <string name="total_amount">Total</string>
+    <string name="add_new_card">ADD UN NOU CARD</string>
+    <string name="proceed_to_pay">Continuați Cu Plata</string>
+    <string name="no_reviews_yet">Încă Nici O Valutare</string>
+    <string name="no_rules_specified">Nu există reguli specificate.</string>
+    <string name="booking_date">Data Rezervării</string>
+    <string name="not_received">NU A FOST PRIMIT</string>
+    <string name="received">PRIMITE</string>
+    <string name="set_preferences_like_availability_start_time_and_weather_you_deliver_tool_or_not">Set Preferences like availability start time,and weather you deliver tool or not.</string>
+    <string name="available">DISPONIBIL</string>
+    <string name="how_it_works">Cum funcționează</string>
+    <string name="next">Următorul</string>
+    <string name="we_have_sent_a_verification_link_to_your_email_please_click_this_to_continue_the_sign_up_process">V-am trimis un email cu un link de verificare, va rugăm să verificati adresa email dvs. pentru a continua inscrieria.</string>
+    <string name="verify_your_email">VERIFICAȚI E-MAILUL DVS.</string>
+    <string name="resend">RETRIMITE</string>
+    <string name="join_us">Join US</string>
+    <string name="ok">OK</string>
+    <string name="broadcast">BROADCAST</string>
+    <string name="check_in_cal">Check-In</string>
+    <string name="check_out_cal">Check-Out</string>
+    <string name="no_bookings_available">Nici o Rezervare Disponibilă</string>
+    <string name="clear_conversation">Stergeți Conversația</string>
+    <string name="block">BlocațI</string>
+    <string name="take_a_photo">Faceți o Fotografie</string>
+    <string name="select_from_gallery">Selectați din Galerie</string>
+    <string name="view_photo">Vedeți Fotografia</string>
+    <string name="booking_availability">DISPONIBILITATE REZERVARI</string>
+    <string name="are_you_sure_you_want_to_discard_all_cards">Sunteți sigur că doriți să renunțați la toate cardurile?</string>
+    <string name="confirm">Confirmați</string>
+    <string name="no_history_yet">No History Yet</string>
+    <string name="no_places_listed_yet">Încă Nici O Proprietate Adăugată</string>
+    <string name="no_message_yet">Nici un mesaj Cu toate acestea,</string>
+    <string name="no_notification_yet">No Notification Yet</string>
+    <string name="no_accounts_listed_yet">No Accounts Listed Yet</string>
+    <string name="no_cards_listed_yet">No Cards Listed Yet</string>
+    <string name="no_place_added_to_favourites_yet">No place added to favourites yet</string>
+    <string name="no_statistics_available">Nu există date statistice disponibile</string>
+    <string name="security_deposit_refundable_receipt">Garanția de securitate (Rambursabil)</string>
+    <string name="delivery_charges">Taxe de transport</string>
+    <string name="less_service_fee">Taxa de serviciu inferioră</string>
+    <string name="gross_total">Totală Brut</string>
+    <string name="security_refunded">Depozit de Securitate restituit</string>
+    <string name="total_price">Preț Total</string>
+    <string name="my_earnings">VENITURILE MELE</string>
+    <string name="lifetime">FĂRĂ LIMITĂ DE TIMP</string>
+    <string name="overall_rating_stats">Rating-ul global</string>
+    <string name="my_listed_places">my listed Places</string>
+    <string name="bookings">Rezervări</string>
+    <string name="my">Al meu</string>
+    <string name="unblock">DEBLOCAȚI</string>
+    <string name="cvv">CVV</string>
+    <string name="booking_till_date">REZERVARE PÂNĂ LA DATA DE</string>
+    <string name="checked_out">Checked Out</string>
+    <string name="earnings">EARNINGS</string>
+    <string name="active_bookings">Rezervari În Progres</string>
+    <string name="delete">ȘTERGE</string>
+    <string name="list_your_place">Publicați Proprietatea Dvs.</string>
+    <string name="Cancellation_charges_will_be_deducted_from_booking_amount_Do_you_want_to_proceed">Taxa de anulare va fi dedusă din valoarea rezervării. Doriți să continuați?</string>
+    <string name="By_cancelling_your_overall_ratings_will_be_reduced_and_this_will_affect_your_future_bookings_Do_you_want_to_proceed">Prin anularea, valutarea globală dvs. va fi redusă, si va afecta rezervările viitoare ale dvs. Doriți să continuați?</string>
+    <string name="Are_you_sure_you_want_to_mark_this_BACK_YARD_as_Checked_In">Sigur doriți să marcați Check-in pentru această Proprietate?</string>
+    <string name="Are_you_sure_you_want_to_mark_this_Place_as_Checked_out">Are you sure, you want to mark this Place as Checked out.?</string>
+    <string name="Are_you_sure_you_want_to_mark_this_BACK_YARD_as_Check_out">Sigur doriți să marcați Check-out pentru această Proprietate?</string>
+    <string name="error_security_deposite">Garanția de Securitate nu poate fi mai mică de</string>
+    <string name="zero_one"> 0.1</string>
+    <string name="error_extra_fee_Convience">Costurile Suplimentare nu pot fi mai mici de</string>
+    <string name="erroe_valid_account_number">Introduceți numărul de cont valid</string>
+    <string name="checkout">check-out</string>
+    <string name="invalid_expiry_date">Data de expirare nevalidă</string>
+    <string name="invalid_cvv_number">Număr CVV nevalid</string>
+    <string name="You_already_saved_this_card_earlier">Ați salvat deja această carte mai devreme.</string>
+    <string name="Are_you_sure_you_want_to_make_this_payment">Sunteți sigur că doriți să faceți această plată?</string>
+    <string name="Enter_days_for_discount">Enter days for discount</string>
+    <string name="Number_of_Days_for_Discount_should_be_more_than_1">Number of Days for Discount should be more than 1</string>
+    <string name="Discount_should_be_greater_than_0_one">Discount should be greater than 0.1</string>
+    <string name="Enter_hours_for_discount">Enter hours for discount</string>
+    <string name="Number_of_hours_for_Discount_should_be_more_than_1">Numărul de ore pentru reducere ar trebui să fie mai mare de 1.</string>
+    <string name="Number_of_hours_for_Discount_should_be_less_than">Number of hours for Discount should be less than</string>
+    <string name="Discount_should_be_greater_than_0">Discount should be greater than 0</string>
+    <string name="Extra_free_should_be_less_than_999">Extra free should be less than 999</string>
+    <string name="Enter_valid_extra_fee">Enter valid extra fee</string>
+    <string name="NO_OF_DAYS_FOR_DISCOUNT">NUMĂR DE ZILE PENTRU REDUCERE</string>
+    <string name="NO_OF_HOURS_FOR_DISCOUNT">NUMĂRUL DE ORE PENTRU REDUCERE</string>
+    <string name="Please_wait">Te rog asteapta ...</string>
+    <string name="We_are_fetching_your_primary_account">Noi preluam contul dvs. principal ...</string>
+    <string name="percent_fee_by_BACK_YARD">% Comisionul Nostru.</string>
+    <string name="You_cannot_edit_category_of_tul">Nu puteți edita categoria de TUL</string>
+    <string name="Please_select_category_to_get_Amenities">Please select category to get Amenities.</string>
+    <string name="per_hour">la oră</string>
+    <string name="AVAILABLE_FROM">Disponibil de</string>
+    <string name="AVAILABLE_TILL">Disponibil până</string>
+    <string name="per_day">la zi</string>
+    <string name="suspended">SUSPENDAT</string>
+    <string name="pause_booking">PAUZĂ REZERVARIA</string>
+    <string name="resume_booking">RESUME BOOKING</string>
+    <string name="edit">EditațI</string>
+    <string name="about_this">Despre</string>
+    <string name="discount_availed">Reducere acordată -</string>
+    <string name="discount_offered">Reducere oferită -</string>
+    <string name="rented_to">ÎNCHIRIAT LUI</string>
+    <string name="read_more">...Citește mai mult</string>
+    <string name="report">Denunță</string>
+    <string name="REPORT">DENUNȚĂ</string>
+    <string name="pink_one">Alege una</string>
+    <string name="something_went_wrong">Ceva n-a mers bine</string>
+    <string name="max_character_limit_is_2000">Max Caracter Limita este de 2000</string>
+    <string name="Are_you_sure_you_want_to_block_this_User">Sunteți sigur că doriți să blocați acest utilizator?</string>
+    <string name="You_need_to_unblock_this_user_to_send_a_message">Trebuie să deblocați acest utilizator pentru a trimite un mesaj.</string>
+    <string name="Are_you_sure_you_want_to_clear_this_conversation">Sunteți sigur că doriți să ștergeți această conversație?</string>
+    <string name="select_date">Selecționați Data</string>
+    <string name="Check_In">Check-In</string>
+    <string name="Check_Out">Check-Out</string>
+    <string name="When_You_Book_for_at_least">Când rezervați cel puțin</string>
+    <string name="days">Zile</string>
+    <string name="You_can_book_maximum_of">Puteți rezerva un maxim de</string>
+    <string name="hours">Ore</string>
+    <string name="Please_select_at_least_one_date">Please select at least one date</string>
+    <string name="Their_are_no_available_time_slots_of">Their are no available time slots of</string>
+    <string name="hours_for_this_Date">hours for this Date</string>
+    <string name="Please_select_Booking_Time">Please select Booking Time</string>
+    <string name="booking_paused">Booking Paused</string>
+    <string name="NO_TIME_SLOTS_AVAILABLE">NO TIME SLOTS AVAILABLE</string>
+    <string name="AVAILABLE_TIME_SLOTS">SLOTURI DE TIMP DISPONIBILE</string>
+    <string name="inbox">MESAJE</string>
+    <string name="Are_you_sure_you_want_to_clear_this_chat">Are you sure you want to clear this chat?</string>
+    <string name="dashboard">TABLOUL DE BORD</string>
+    <string name="cancelled_on">CANCELLED ON</string>
+    <string name="new_version_available">A newer version of BACK YARD is available would you like to update?</string>
+    <string name="places">PROPRIETAȚI</string>
+    <string name="Please_List_Your_Tul">Vă rugăm Lista TUL ta.</string>
+    <string name="Please_add_Preferences_for_your_tul">Please add Preferences for your tul.</string>
+    <string name="Please_add_Bank_Details_for_your_tul">Vă rugăm să adăugați Banca Detalii pentru TUL ta.</string>
+    <string name="Primary_account_is_already_linked_with_the_Place._You_can_change_your_primary_account_from_the_Payments_section">Primary account is already linked with the Place. You can change your primary account from the Payments section</string>
+    <string name="ALERT_If_You_change_Your_Booking_Availability_Your_Price_And_Preferences_will_be_Reset">ALERT! If You change Your Booking Availability Your Price And Preferences will be Reset!</string>
+    <string name="Compressing_Video">Compressing Video ...</string>
+    <string name="reselect_your_loaction">Reselect Your Location</string>
+    <string name="Sorry_unable_to_fetch_location">Ne pare rău în imposibilitatea de a prelua locație</string>
+    <string name="please_turn_on_your_gps_to_continue">Please turn on your GPS to continue</string>
+    <string name="Fetching_0Location">Fetching Location</string>
+    <string name="Please_select_location">Please select location</string>
+    <string name="Near_By_Places">Near By Places</string>
+    <string name="NOTIFICATIONS">Notificări</string>
+    <string name="CANCELLED">ANULAȚI</string>
+    <string name="Borrower">Chiriaș</string>
+    <string name="RETURNED">RESTITUIT</string>
+    <string name="RECEIVED">PRIMITE</string>
+    <string name="NOT_RECEIVED">NU A FOST PRIMIT</string>
+    <string name="HANDED_OVER">PREDAT</string>
+
+    <string name="Buffering_Video">Tamponare video ...</string>
+    <string name="Set_preferences_like_availability_check_in_and_check_out">Set preferences like availability, check in and check out.</string>
+    <string name="PRICE_OFFERS"><![CDATA[PRETURI ȘI OFERTE]]></string>
+    <string name="RATE_YOUR_EXPERIENCE">VALUTAȚI EXPERIENȚA DVS.</string>
+    <string name="Please_provide_rating">Please provide rating.</string>
+    <string name="Filter_Applied">Filtru Aplicat</string>
+    <string name="Are_you_sure_you_want_to_clear_filters">Sunteți sigur că doriți să ștergeți filtrele?</string>
+    <string name="Please_select_category">Please select category.</string>
+    <string name="SETTINGS">SETĂRI</string>
+    <string name="LOGOUT">DECONECTARE</string>
+    <string name="Are_you_sure_you_want_to_Logout">Sunteți sigur că doriți să vă deconectați?</string>
+    <string name="CONFIRM">CONFIRMAȚI</string>
+    <string name="SIGNATURE">SEMNĂTURĂ</string>
+    <string name="I_hereby_declare_that_I_am_checking_out_from_the_Place">Prin prezenta declar că am părăsit proprietatea.</string>
+    <string name="I_hereby_declare_that_the_user_has_checked_out_from_the_Place">Declar prin prezenta că chiriașu a plecat.</string>
+    <string name="I_hereby_declare_that_I_am_cancelling_Place">Prin prezenta declar că anulez spațiul prenotarea.</string>
+    <string name="_booking">rezervare.</string>
+    <string name="Please_Sign_above">Vă rugăm să Conectați-vă de mai sus</string>
+    <string name="By_signing_up_i_agree_to_the_Terms_and_Conditions">Prin înscrierea sunt de acord cu Termenii și condițiile.</string>
+    <string name="TELL_A_FRIEND">SPUNEI LA UN PRIETEN</string>
+    <string name="Linked_Account">CONT ADAUGAT</string>
+    <string name="When_you_book_for_at_least">Când rezervați cel puțin</string>
+    <string name="This_is_the_total">This is the total</string>
+    <string name="you_will_earn_after_deduction_of">you will earn after deduction of</string>
+    <string name="This_is_the_total_price_you_will_earn_after_deduction_of">Aceasta este cifra totală care o să o câștigați după deducerea noastră</string>
+    <string name="percentage_fee_by_BACK_YARD">% Comisionul Nostru.</string>
+    <string name="WhatsApp_is_not_installed">WhatsApp nu este instalat pe telefonul dumneavoastră.</string>
+    <string name="SUMMARY_CHECKOUT"><![CDATA[SUMMARY & CHECKOUT]]></string>
+    <string name="Place_Charges_per_hour_x">Pretul Prorietații (la zi) (la oră) x</string>
+    <string name="Place_Charges_per_day_x">Pretul Prorietații (la zi) x</string>
+    <string name="Please_add_card_details">Vă rugăm să adăugați detaliile cardului</string>
+    <string name="Please_enter_CVV_number">Vă rugăm să introduceți numărul CVVr</string>
+    <string name="Invalid_cvv_number">Număr CVV nevalid</string>
+    <string name="Invalid_card">card de credit nevalid</string>
+    <string name="Sorry_unable_to_fetch_your_location">Sorry unable to fetch your location.</string>
+    <string name="Your_selected_location_is_not_in_range_Please_choose_another_address">Your selected location is not in range. Please choose another address.</string>
+    <string name="This_Place_has_been_removed_by_owner">This Place has been removed by owner.</string>
+    <string name="Payment_Exceed">Payment Exceed</string>
+    <string name="Details_Changed">Details Changed</string>
+    <string name="Alert">Avertisment!</string>
+    <string name="NO_INTERNET_CONNECTION">Fără conexiune internet</string>
+    <string name="NO_REVIEWS_YET">ÎNCĂ NICI O VALUTARE</string>
+    <string name="PREFERENCES">PREFERINȚE</string>
+    <string name="START_TIME">Timpul de începere</string>
+    <string name="CHECK_IN">CHECK-IN</string>
+    <string name="Search_for_a_Space">Căutați o Proprietate</string>
+    <string name="Search_venues_from_the_given_categories_and_apply_any_desired_filters">Căutați o proprietate din categoriile propuse și aplicați filtrele dorite.</string>
+    <string name="Book_a_Space">Book a Space</string>
+    <string name="Available_venues_will_be_displayed._Select_the_one_you_find_suitable_and_proceed_to_book">Se vor afișa proprietățile disponibile. Alege una care ti se potriveste si continua cu rezervarea.</string>
+    <string name="Make_online_payment_and_check_the_status_of_the_rented_venues_with_ease">Efectuați plata on-line și verificați rezervările cu ușurință.</string>
+    <string name="Become_a_Host">Deveniți Gazdă</string>
+    <string name="Add_your_own_spaces_with_all_the_required_information">Adăugați proprietatea dumneavoastră cu toate informațiile necesare.</string>
+    <string name="Check_Status">Verificați Starea</string>
+    <string name="Track_the_status_of_all_the_rented_venues_with_ease">Urmariți starea proprietății rezervate cu ușurință.</string>
+    <string name="Dashboard">Tablou de Bord</string>
+    <string name="Check_all_your_statistics_and_earnings_effortlessly">Examinați cu ușurință toate statisticile și veniturile.</string>
+    <string name="OTP_Successfully_sent">OTP a trimis cu succes</string>
+    <string name="Call_initiated_successfully">Call initiated successfully</string>
+    <string name="Internet_connection_not_available">Conexiune internet ne disponibilă!</string>
+    <string name="You_cannot_check_out_before_the_scheduled_booking_date_and_time">Nu puteți face Check-out înainte de data programată și ora rezervării.</string>
+    <string name="REVIEWS">OPINII</string>
+    <string name="Not_booked_yet">Not booked yet!</string>
+    <string name="Mark_Check_In">Marchează Check-In</string>
+    <string name="Mark_Check_Out">Mark Check Out</string>
+    <string name="RENTED">ÎNCHIRIAT</string>
+    <string name="delete_account">ȘTERGE CONT</string>
+    <string name="Change_Language">Change Language</string>
+    <string name="English">English</string>
+    <string name="Italian">Italian</string>
+    <string name="Spanish">Spanish</string>
+    <string name="French">French</string>
+    <string name="German">German</string>
+    <string name="Romanian">Romanian</string>
+    <string name="delete_account_">Ștergerea contului se va elimina definitiv tot conținutul. Sunteți sigur că doriți să ștergeți contul?</string>
+
+
+</resources>

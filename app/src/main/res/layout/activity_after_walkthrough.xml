@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_6sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:text="@string/Skip"
+        android:textColor="@color/black_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_logo_wc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_below"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_ripple"
+                android:gravity="center"
+                android:padding="@dimen/_12"
+                android:text="@string/log_in"
+                android:textColor="@color/white_color" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/_20"
+                android:layout_height="match_parent" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_ripple"
+                android:gravity="center"
+                android:padding="@dimen/_12"
+                android:text="@string/sign_up"
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/facebook_round_corner"
+                android:gravity="center"
+                android:padding="@dimen/_12"
+                android:text="@string/login_with_facebook"
+                android:textColor="@color/white_color" />
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="@dimen/facebook_button"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:alpha="0"
+                facebook:com_facebook_confirm_logout="false"
+                facebook:com_facebook_tooltip_mode="never_display" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

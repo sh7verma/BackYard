@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "719985997023",
+    "firebase_url": "https://backyard-dba68.firebaseio.com",
+    "project_id": "backyard-dba68",
+    "storage_bucket": "backyard-dba68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719985997023:android:828c09fbe5c06bfd",
+        "android_client_info": {
+          "package_name": "com.app.backyard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719985997023-ilemjq9q05etk7tiurct6i8t0244q3h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKo1FMRy6dhNR5O_R0RNpY0zkEl_HCKE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
