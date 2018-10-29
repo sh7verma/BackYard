@@ -795,6 +795,7 @@ public class LandingActivity extends BaseActivity implements OnMapReadyCallback,
         TextView txtConfirm = (TextView) phone_dialog.findViewById(R.id.txt_confirm);
         txtConfirm.setTextSize(TypedValue.COMPLEX_UNIT_PX, (int) (mWidth * 0.04));
         txtConfirm.setPadding(mWidth / 32, 0, mWidth / 32, 0);
+
         txtConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
